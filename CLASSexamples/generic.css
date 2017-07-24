@@ -1,0 +1,26 @@
+body {
+  background-color: #d6c09a;
+  color: grey;
+  font-family: fantasy;
+}
+#title, div, header, ul {
+  text-align: center;
+}
+#BIGBUCKS {
+  padding: 10px;
+}
+.bulletcenter {
+    width:125px;
+    margin:0 auto;
+    text-align:left;
+    font-weight: bold;
+}
+#title {
+  border-bottom-style: dashed;
+  border-color: inherit;
+  border-width: medium;
+  font-size: 48px;
+}
+#dragons {
+  background-color: #d6c09a;
+}

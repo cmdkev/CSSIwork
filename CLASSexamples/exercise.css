@@ -1,0 +1,89 @@
+html {
+  background-color: #494f56;
+  font-family: 'Josefin Sans', sans-serif;
+}
+span {
+  color: white;
+  text-decoration: underline;
+}
+
+#HEADING {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #DDDDDD;
+    /*padding-left: 10px;
+    padding-right: 25px;*/
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color:  white;
+}
+
+.active {
+    color: white;
+    background-color: maroon;
+}
+
+#BIGBUTT {
+  padding: 10px;
+}
+
+h1 {
+  font-size: 200 px;
+  text-align: center;
+  color: black;
+  background-color: maroon;
+  border: 2px solid #6d6969;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+ul, h2 {
+  /* float: left; */
+  list-style-type: circle;
+  color: black;
+  padding: 5px;
+  text-align: center;
+}
+#likes {
+  margin-left: 300px;
+  padding: 15px;
+}
+h3 {
+  text-align: center;
+  color: black;
+}
+
+figure {
+  padding: 100px;
+}
+
+#static {
+  display: block;
+  float: left;
+}
+
+figcaption {
+  display: run-in;
+  float: left;
+}
+
+#transition {
+  display: none;
+  float: right;
+}

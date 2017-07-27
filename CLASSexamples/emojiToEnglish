@@ -1,0 +1,6 @@
+#create a dictionary called emoji_to_english
+#look up something and print it
+
+emoji_to_english = {
+  "🍑" = ""
+}

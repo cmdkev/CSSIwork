@@ -1,0 +1,45 @@
+<html>
+
+<head>
+</head>
+
+<body>
+  <form>
+    What's your name? <input name="n" type="text">
+    <br>
+    <br> What's your favorite food? <input name="f" type="text">
+    <input type="submit">
+  </form>
+  <h1>
+        {% if myName == "Kevin" %}
+        Hi Kevin
+        <br>
+        {% for i in range(count) %}
+        <img src="/resources/kevin.gif">
+        {% endfor %}
+        {% else %}
+        Hello {{myName}}
+        {% endif %}
+    </h1>
+  <h4>
+        {% if food == "Pizza" %}
+        Pizza receives a 25/10 on my scale!
+          <br>
+            <img src="/resources/thumbsUp.gif">
+        {% elif food == "pizza" %}
+        pizza receives a 25/10 on my scale!
+          <br>
+            <img src="/resources/thumbsUp.gif">
+        {% else %}
+        Meh .__. {{food}} is alright I guess
+          <br>
+            <img src="/resources/thumbsDown.gif">
+        {% endif %}
+    </h4>
+  <!--  <h1> MuaHaHa my evil plan worked!! </h1> -->
+
+  <!-- <img src="/resources/Towing-Bolingbrook-IL.jpg"> -->
+
+</body>
+
+</html>
